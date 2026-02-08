@@ -1,6 +1,14 @@
 # Modal
 ## Simple modal
-Створення простого модального вікна за допомогою простого JS.
+
+Навчальний приклад простого модального вікна на Vanilla JavaScript.
+Проєкт створений для розуміння роботи з DOM, класами та базовою логікою відкриття/закриття модалок без бібліотек.
+
+Простий скрипт, який:
+- відкриває модальне вікно по кліку на кнопку
+- блокує скрол сторінки
+- закриває модалку при кліку на бекдроп
+
 Кнопка виклику модального вікна:
 ```html
 <button class="open-modal inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium font-mono bg-stone-50 inset-ring border border-dashed h-10 px-3">Modal</button>
