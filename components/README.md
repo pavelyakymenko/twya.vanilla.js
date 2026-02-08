@@ -53,4 +53,14 @@ modal.addEventListener('click', (event) => {
     dialog.classList.toggle('scale-100')
     }
 })
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === "Escape") {
+        body.classList.toggle('overflow-hidden')
+        modal.classList.toggle('opacity-0')
+        modal.classList.toggle('pointer-events-none')
+        dialog.classList.toggle('scale-95')
+        dialog.classList.toggle('scale-100')
+    }
+})
 ```
